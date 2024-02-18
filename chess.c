@@ -7,10 +7,6 @@
 #include <SDL2/SDL_ttf.h>
 
 #include "src/headers/initVariables.h"
-int moves[218], best_move;
-enum chessPiece whiteNumberOfPiecesSearch[6];
-enum chessPiece blackNumberOfPiecesSearch[6];
-piece chessboardSearch[8][8];
 #include "src/headers/initFunctions.h"
 
 int main(int argc, char *argv[]) {
